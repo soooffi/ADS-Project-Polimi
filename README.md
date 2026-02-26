@@ -3,6 +3,7 @@ Algorithms and Data Structures Project at Politecnico di Milano, A.Y. 2024/2025
 Final grade: **30L** 
 
 
+
 ## 🎯 Objective
 
 This is one of the three mandatory projects required to graduate with a **Bachelor's Degree in Computer Engineering at Politecnico di Milano**. The project changes every year with a new problem statement.
@@ -24,11 +25,12 @@ The table below shows the time and memory complexity requirements that must be m
 | **30L** | **10.000 s** | **26.0 MiB** |
 
 
-## 🏅 Final Grade
+
+## 🏅My Final Grade
 
 | | |
 |---|---|
 | **Grade** | 30L |
-| **Maximum** | 30L |
+| **Time Limit [s]** | 8.731s |
+| **Memory Limit [MiB]** | 24.5s |
 
-> 30L is the highest possible grade at Politecnico di Milano — awarded with honors (*con lode*).
