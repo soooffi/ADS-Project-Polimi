@@ -46,6 +46,8 @@ The table below shows the time and memory complexity requirements that must be m
 
 ##  Solution
 
+**[movhex4.c](./movhex4.c)**
+
 The project was implemented in **C**, using efficient data structures to manage both the hexagonal grid and the air routes.
 
 The most challenging part at the beginning was handling the **neighbors** in a hexagonal grid: unlike a square grid, each cell (excluding border ones) has exactly 6 neighbors, and their indices differ depending on whether the row is even or odd. To solve this, I created a struct containing a fixed-size array of 6 neighbor indices, computed statically during initialization in the `init` function — avoiding any runtime overhead.
@@ -62,8 +64,5 @@ Initially the struct held more fields, but after a deeper analysis of the proble
 
 **`travel_cost`** — Implements **Dijkstra's algorithm** using a manually built **binary min-heap**. Both physical neighbors and air routes are explored. Hexagons with cost 0 are impassable. Returns -1 if the destination is unreachable.
 
----
 
-##  Project Structure
-[movhex4.c](./movhex4.c)
 
