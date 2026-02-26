@@ -5,7 +5,7 @@ Algorithms and Data Structures Project at Politecnico di Milano, A.Y. 2024/2025
 ---
 
 
-## 🎯 Objective
+## Objective
 
 This is one of the three mandatory projects required to graduate with a **Bachelor's Degree in Computer Engineering at Politecnico di Milano**. The project changes every year with a new problem statement.
 
@@ -15,7 +15,7 @@ For the **A.Y. 2024/2025**, the full problem specification is available here: [P
 ---
 
 
-## 🏆 Performance
+##  Performance
 The table below shows the time and memory complexity requirements that must be met to achieve each grade.
 
 | Grade | Time Limit [s] | Memory Limit [MiB] |
@@ -31,7 +31,7 @@ The table below shows the time and memory complexity requirements that must be m
 ---
 
 
-## 🏅My Final Grade
+## My Final Grade
 
 | | |
 |---|---|
@@ -44,7 +44,7 @@ The table below shows the time and memory complexity requirements that must be m
 ---
 
 
-## 💡 Solution
+##  Solution
 
 The project was implemented in **C**, using efficient data structures to manage both the hexagonal grid and the air routes.
 
