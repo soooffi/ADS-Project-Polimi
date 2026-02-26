@@ -50,7 +50,7 @@ The project was implemented in **C**, using efficient data structures to manage 
 
 The most challenging part at the beginning was handling the **neighbors** in a hexagonal grid: unlike a square grid, each cell (excluding border ones) has exactly 6 neighbors, and their indices differ depending on whether the row is even or odd. To solve this, I created a struct containing a fixed-size array of 6 neighbor indices, computed statically during initialization in the `init` function — avoiding any runtime overhead.
 
-Initially the struct held more fields, but after a deeper analysis of the problem I identified recurring patterns — for example, the cost of an air route is always equal to the exit cost of the source hexagon — which allowed me to simplify the data structures significantly.
+Initially the struct held more fields, but after a deeper analysis of the problem I identified recurring patterns (for example, the cost of an air route is always equal to the exit cost of the source hexagon) which allowed me to simplify the data structures significantly.
 
 ### Function Breakdown
 
@@ -72,9 +72,9 @@ The grid uses an **offset row system**: even and odd rows have different connect
 ### Cost Modification (`change_cost`)
 The modification propagates to hexagons within the radius using **BFS**. The applied delta decreases linearly with the distance from the center:
 
-```
+
 delta = v * (radius - distance) / radius
-```
+
 
 Values are clamped to the range `[0, 100]`.
 
