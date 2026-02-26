@@ -2,6 +2,15 @@
 Algorithms and Data Structures Project at Politecnico di Milano, A.Y. 2024/2025  
 Final grade: **30L** 
 
+
+## 🎯 Objective
+
+This is one of the three mandatory projects required to graduate with a **Bachelor's Degree in Computer Engineering at Politecnico di Milano**. The project changes every year with a new problem statement.
+
+For the **A.Y. 2024/2025**, the full problem specification is available here: [Problem Statement](./problem_statement.pdf)
+
+---
+
 ## 🏆 Performance
 
 | Grade | Time Limit [s] | Memory Limit [MiB] |
