@@ -37,7 +37,7 @@ The table below shows the time and memory complexity requirements that must be m
 |---|---|
 | **Grade** | 30L |
 | **Time Limit [s]** | 8.731s |
-| **Memory Limit [MiB]** | 24.5s |
+| **Memory Limit [MiB]** | 24.5MiB |
 
 
 
