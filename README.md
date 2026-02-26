@@ -65,7 +65,5 @@ Initially the struct held more fields, but after a deeper analysis of the proble
 ---
 
 ##  Project Structure
+[movhex4.c](./movhex4.c)
 
-```
-.
-└── movhex4.c   # Single source file containing the entire implementation
