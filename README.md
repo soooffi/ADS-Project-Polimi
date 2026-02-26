@@ -64,30 +64,7 @@ Initially the struct held more fields, but after a deeper analysis of the proble
 
 ---
 
-## Implementation Details
-
-### Hexagonal Grid
-The grid uses an **offset row system**: even and odd rows have different connectivity with their 6 neighbors, computed statically during initialization.
-
-### Cost Modification (`change_cost`)
-The modification propagates to hexagons within the radius using **BFS**. The applied delta decreases linearly with the distance from the center:
-
-
-delta = v * (radius - distance) / radius
-
-
-Values are clamped to the range `[0, 100]`.
-
-### Dijkstra's Algorithm
-- Uses a dynamically allocated **binary min-heap**
-- Handles both the 6 physical neighbor edges and air routes
-- Hexagons with value `0` are considered impassable
-- Complexity: **O((V + E) log V)**
-
-### Air Routes
-Each hexagon maintains a **linked list** of destinations reachable by air. The toggle operation adds the route if absent, removes it if already present.
-
-## 📁 Project Structure
+##  Project Structure
 
 ```
 .
