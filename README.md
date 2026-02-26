@@ -9,9 +9,10 @@ This is one of the three mandatory projects required to graduate with a **Bachel
 
 For the **A.Y. 2024/2025**, the full problem specification is available here: [Problem Statement](./problem_statement.pdf)
 
----
+
 
 ## 🏆 Performance
+The table below shows the time and memory complexity requirements that must be met to achieve each grade.
 
 | Grade | Time Limit [s] | Memory Limit [MiB] |
 |-------|---------------|-------------------|
@@ -22,4 +23,12 @@ For the **A.Y. 2024/2025**, the full problem specification is available here: [P
 | 30 | 11.000 s | 26.0 MiB |
 | **30L** | **10.000 s** | **26.0 MiB** |
 
----
+
+## 🏅 Final Grade
+
+| | |
+|---|---|
+| **Grade** | 30L |
+| **Maximum** | 30L |
+
+> 30L is the highest possible grade at Politecnico di Milano — awarded with honors (*con lode*).
